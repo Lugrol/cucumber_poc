@@ -1,0 +1,8 @@
+{
+	"empty password":"Epic sadface: Password is required",
+	"empty username":"Epic sadface: Username is required",
+	"invalid password":"Epic sadface: Username and password do not match any user in this service",
+	"invalid username":"Epic sadface: Username and password do not match any user in this service",
+	"locked out user": "Epic sadface: Sorry, this user has been locked out.",
+	"not logged in":"Epic sadface: You can only access '/*.html' when you are logged in."
+}

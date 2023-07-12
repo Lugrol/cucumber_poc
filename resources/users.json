@@ -1,0 +1,8 @@
+{
+	"empty password":	["standard_user"	,""],
+	"empty username":	[""			,"secret_sauce"],
+	"invalid password":	["standard_user"	,"wrong_pass"],
+	"invalid username":	["invalid_user"		,"secret_sauce"],
+	"locked out user":	["locked_out_user"	,"secret_sauce"],
+	"valid credentials":	["standard_user"	,"secret_sauce"]
+}
