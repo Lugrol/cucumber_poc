@@ -1,3 +1,4 @@
+from ipdb import post_mortem
 from behave import use_fixture
 from selenium import webdriver
 
@@ -13,3 +14,7 @@ fixture_registry={ # Store the strategy definition
 def before_tag(context, tag): # Use strategy defined by tag
     if tag.startswith("fixture."):
         return use_fixture(fixture_registry.get(tag), context)
+
+def after_step(context, step):
+    if step.status == "failed" and context.config.userdata.getbool('debug'):
+        spost_mortem(step.exc_traceback)

@@ -1,4 +1,1 @@
-Implement proper configuration.
-	Implement debugger fallback config option.
-
 Implement page objects.
